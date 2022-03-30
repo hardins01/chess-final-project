@@ -1,0 +1,260 @@
+
+html
+{
+	background-color: #e8f4f8;
+	font-family: font-family: Roboto, Helvetica, sans-serif;
+	scroll-behavior: smooth;
+}
+h1
+{
+
+	color:#28282B;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+nav
+{
+	display: block;
+}
+ul
+{
+	display: flex;
+
+}
+body
+{
+	margin: 0;
+	display: block;
+}
+
+li
+{
+
+}
+
+header
+{
+	display: block;
+	background-color: #99cfe0;
+	font-size: 40px;
+}
+
+.navtext:hover {
+	color: #ededed;
+}
+
+
+main
+{
+	position: absolute;
+	/*background-color: black*/
+	padding-top: 5px;
+	/*padding-left: 3px; 
+	padding-right: 3px;*/ 
+	display: inline-flex;
+	width: 90%;
+	justify-content: center;
+	align-self: center;
+
+}
+
+article
+{
+	border-radius: 3px;
+	border-color: black;
+	border: 1px;
+	background-color: rgb(238, 63, 9);
+	display: flex;
+}
+
+/* unvisited link */
+a:link 
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited 
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover 
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active 
+{
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar
+{
+	line-height: 20px;
+	font-size: 15px;
+	width: 90%;
+}
+
+.navtext a 
+{
+  padding: 8px 10px;
+  display: block;
+
+}
+
+.navtext {
+	font-size: 20px;
+}
+
+.NavbarItem
+{
+	display: inline-block;
+	margin: 2px;
+	padding: 10px;
+	width: 25%;
+	float: left;
+}
+li.NavbarItem
+{
+	text-align: center;
+}
+.Option
+{
+	min-width: 20vw;
+	float: left;
+	display: block;
+	margin: 10px;
+	padding-bottom: 10vw;
+	padding-top: 5vw;
+	min-width: 256px;
+	text-align: center;
+
+}
+
+
+#MainContainer
+{
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.TextContainer p
+{
+
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 20px;
+
+}
+
+.TextContainer
+{
+	vertical-align: middle;
+	line-height: 50px;
+	font-size: 30px;
+	/*margin-left: 50%;
+	margin-right: 50%;*/
+}
+
+.ArticleImage
+{
+	line-height: 100px;
+	display: inline-block;
+	position: relative;
+	min-width: 100px;
+	margin-left: 23%;
+	margin-right: 23%;
+	resize: both;
+  	overflow: auto;
+	padding: 3px;
+}
+
+.ArticleButton
+{
+	display: inline-block;
+	align-self: center;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+
+#GameTab {
+	background-color: blue;
+
+}
+
+
+
+#PlayerCountRoom1
+{
+
+}
+
+
+
+
+#Clock
+{
+	display: inline-block;
+	background-color: #DCDCDC;
+	border-color: black;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+	margin-left: 52.5px;
+	margin-right: 52.5px;
+
+}
+
+article#GameTab
+{
+	border-radius: 3px;
+	border-color: blue;
+	color: black;
+	border: 1px;
+	background-color: #DCDCDC;
+	max-height: 300px; 
+	max-width: 400px;
+	min-height: 100px; 
+	min-width: 400px;
+	position: relative;
+	padding-right: 9px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	display: block;
+
+}
+#WhitePicesThatWereTaken
+{
+	border-radius: 3px;
+	border-color: black;
+	border: 1px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#BlackPicesThatWereTaken
+{
+	border-radius: 3px;
+	border-color: black;
+	border: 1px;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.hidden
+{
+	visibility: hidden;
+}

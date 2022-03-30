@@ -1,0 +1,117 @@
+/*
+     This is the stylesheet for the chess board and the pieces on it.
+*/
+
+
+#piece-has-moved{
+     position: absolute;
+     visibility: hidden;
+}
+
+#board-container{
+     width: min(60vw, 64vh);
+     height: min(60vw, 64vh);
+     margin: 60px 5vw 0px 5vw;
+}
+
+#board{
+     display: grid;
+     grid-template-columns: repeat(8, min(7.5vw, 8vh));
+     grid-template-rows: repeat(8, min(7.5vw, 8vh));
+     width: min(60vw, 64vh);
+}
+
+.square{
+     text-align: center;
+     position: relative;
+     display: flex;
+     align-items: center;
+}
+
+.row-label,
+.col-label{
+     position: absolute;
+     font-size: min(3vw, 3vh);
+}
+
+.row-label{
+     left: 3px;
+     top: 1px;
+}
+
+.col-label{
+     bottom: 1px;
+     right: 6px;
+}
+
+.selected > .text-color1,
+.valid-move > .text-color1{
+     color: #e6c5ce;
+}
+
+.selected > .text-color2,
+.valid-move > .text-color2{
+     color: #e6adbc;
+}
+
+.text-color1{
+     color: #e8ebef;
+}
+
+.text-color2{
+     color: #e6adbc;
+}
+
+.color1{
+     background-color: #e8ebef;
+}
+
+.color2{
+     background-color: #99cfe0;
+}
+
+.selected.color1, 
+.valid-move.color1{
+     background-color: #e6c5ce;
+}
+
+.selected.color2,
+.valid-move.color2{
+     background-color: #e6adbc;
+}
+
+.piece{
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     margin: auto;
+
+     height: auto;
+     max-height: 60%;   /* controls the size of the piece */
+}
+
+/* make text and piece images non-highlightable by clicking and dragging with mouse */
+.piece,
+.row-label,
+.col-label{
+     user-select: none;
+     -moz-user-select: none;
+     -webkit-user-select: none;
+     -ms-user-select: none;
+}
+
+#status-message,
+#warning-message{
+     color: #28282B;
+     margin-top: 15px;
+     padding-bottom: 20px;
+     text-align: center;
+     font-size: 20px;
+}
+
+.hidden
+{
+     visibility: hidden;
+}

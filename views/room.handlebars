@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<title>Tweeter Squad Chess Website Project</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/Game.css" media="screen">
+		<link rel="stylesheet" href="css/ChessBoard.css" media="screen">
+		<script src="js/Room1.js" defer></script>
+		<script src="js/Chess.js" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	<body id="Body">
+		<div id="Gameurl" class="hidden">{{url}}</div>
+		<h1 id="Title"> Tweeter Squad Chess - Room {{roomNum}}</h1>
+		<header id="Header">
+			<nav class="Navbar">
+				<ul>
+					<li class="NavbarItem">
+						<a href="Rooms" class="navtext">Leave Game</a>
+					</li>
+	
+				</ul>
+			</nav>
+		</header>
+	
+		<main id="MainContainer">
+		
+		
+			<input type="checkbox" id="piece-has-moved">
+
+			<div id="board-container">
+			
+				{{> board}}
+
+				<div id="status-message"></div>
+				<div id="warning-message"></div>
+
+          	</div>
+          	<!--
+          	<article id="GameTab">
+
+          		<div id="Clock"> Game Time : </div>
+
+          		<div id="BlackPicesThatWereTaken">
+          			<strong> Removed Black Pieces </strong> 
+          		</div>
+
+
+          		<div id="WhitePicesThatWereTaken">
+          			<strong> Removed White Pieces </strong> 
+          		</div>
+
+          	</article>
+			-->
+          
+
+
+		</main>
+	
+		<footer class="Footer">
+			
+		</footer>
+	
+	</body>
+</html>

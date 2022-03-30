@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Tweeter Squad Chess Website Project</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/RoomView.css" media="screen">
+	<script src="js/Rooms.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body id="Body">
+	<div id="Gameurl" class="hidden">{{url}}</div>
+	<h1 id="Title"> Tweeter Squad Chess - Play Rooms</h1>
+	<header id="Header">
+		<nav class="Navbar">
+			<ul>
+				<li class="NavbarItem">
+					<a href="/" class="navtext">Back</a>
+				</li>
+				<li class="NavbarItem">
+					<a href="HowToPlay" class="navtext">How to Play</a>
+				</li>
+				<li class="NavbarItem">
+					<a href="Creators" class="navtext">Creators</a>
+				</li>
+				<li class="NavbarItem">
+					<a href="https://oregonstate.edu/" class="navtext">Inspiration tab</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="MainContainer">
+	<a href='room1'>
+		<article id="PlayArticle" class="Option">
+			<div class="TextContainer"> Room 1 </div> 
+			<span class="JoinGameButtonText"> Play</span>
+			<div id="PlayerCountRoom1"># of people in room:  </div>
+		</button>
+		</article>
+	</a>
+		
+	<a href='room2'>
+		<article id="PlayArticle" class="Option">
+			<div class="TextContainer"> Room 2 </div> 
+			<span class="JoinGameButtonText"> Play</span>
+			<div id="PlayerCountRoom2"># of people in room:  </div>
+		</button>
+		</article>
+	</a>
+		
+	<a href='room3'>
+		<article id="PlayArticle" class="Option">
+			<div class="TextContainer"> Room 3 </div> 
+			<span class="JoinGameButtonText"> Play</span>
+			<div id="PlayerCountRoom3"># of people in room:  </div>
+		</button>
+		</article>
+	</a>
+
+	<a href='room4'>
+		<article id="PlayArticle" class="Option">
+			<div class="TextContainer"> Room 4 </div> 
+			<span class="JoinGameButtonText"> Play</span>
+			<div id="PlayerCountRoom4"># of people in room:  </div>
+		</button>
+		</article>
+	</a>
+
+	</main>
+
+	<footer class="Footer">
+		
+	</footer>
+
+</body>
+</html>
+

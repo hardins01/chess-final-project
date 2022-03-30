@@ -1,0 +1,207 @@
+
+html
+{
+	background-color: #e8f4f8;
+	font-family: font-family: Roboto, Helvetica, sans-serif;
+	scroll-behavior: smooth;
+}
+h1
+{
+	color: #28282B;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+nav
+{
+		display: block;
+}
+ul
+{
+		display: flex;
+		justify-content: center;
+}
+body
+{
+	margin: 0;
+	display: block;
+}
+
+li
+{
+
+}
+
+header
+{
+	display: block;
+	background-color:#99cfe0;
+}
+
+main
+{
+	position: absolute;
+	/*background-color: black*/
+	padding-top: 5px;
+	/*padding-left: 3px; 
+	padding-right: 3px;*/ 
+	display: inline-flex;
+	width: 90%;
+	justify-content: center;
+	align-self: center;
+
+}
+
+article
+{
+	border-radius: 3px;
+	border-color: #99cfe0;
+	border: 1px;
+	background-color: #99cfe0;
+	display: flex;
+	color: white;
+}
+
+/* unvisited link */
+a:link 
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited 
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover 
+{
+color: #ededed;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active 
+{
+  color: white;
+  text-decoration: none;
+}
+
+
+.Navbar
+{
+	justify-content: center;
+	line-height: 20px;
+	font-size: 15px;
+	width: 90%;
+}
+
+
+.ArticleButton:hover {
+	color: #DCDCDC;
+	font-size: 25px;
+}
+
+.navtext {
+	font-size: 20px;
+}
+
+
+.navtext a 
+{
+  padding: 8px 10px;
+  display: block;
+}
+
+.NavbarItem
+{
+	display: inline-block;
+	margin: 2px;
+	padding: 10px;
+	width: 25%;
+}
+li.NavbarItem
+{
+	text-align: center;
+}
+.Option
+{
+
+	min-width: 20vw;
+	float: left;
+	display: block;
+	margin: 10px;
+	padding-bottom: 10vw;
+	padding-top: 5vw;
+	min-width: 256px;
+	text-align: center;
+
+}
+
+.Option:hover {
+	background-color: #e6adbc;
+}
+
+/*flex: 1 1 80%; */
+
+#MainContainer
+{
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.TextContainer p
+{
+
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 20px;
+
+}
+
+.TextContainer
+{
+	vertical-align: middle;
+	line-height: 50px;
+	font-size: 40px;
+	/*margin-left: 50%;
+	margin-right: 50%;*/
+}
+
+.ArticleImage
+{
+	line-height: 100px;
+	display: inline-block;
+	position: relative;
+	min-width: 100px;
+	margin-left: 23%;
+	margin-right: 23%;
+	resize: both;
+  	overflow: auto;
+	padding: 3px;
+
+}
+
+.ArticleButton
+{
+	display: inline-block;
+
+	align-self: center;
+	border-radius: 2px;
+	margin-bottom: 4px;
+	cursor: pointer;
+	border: white;
+	background-color:#99cfe0;
+	font-size: 13pt;
+	font-family: Times;
+	color: white;
+	font: Roboto;
+}
+
+.hidden
+{
+	visibility: hidden;
+}
